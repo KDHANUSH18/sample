@@ -1,0 +1,131 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav {
+  padding: 20px;
+  background-color: #fd1690;
+  color: black;
+}
+
+.container {
+  padding: 8px;
+}
+
+.container-box {
+  width: 38%;
+  background-color: #ffd190;
+  margin: 9px;
+  padding: 8px;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container-box h2 {
+  color: #dd1691;
+}
+
+.container-box button {
+  background-color: aqua;
+  border-radius: 22px;
+  padding: 9px;
+  border: none;
+  margin-top: 10px;
+
+}
+
+.add-popup-overlay {
+
+  background-color: black;
+  opacity: 0.6;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+.popup-box {
+  position: absolute;
+  background-color: #ffd811;
+  width: 40%;
+  border-radius: 10px;
+  padding: 40px;
+  top: 20%;
+  left: 20%;
+  z-index: 3;
+  display: none;
+
+}
+
+.popup-box input {
+  width: 100%;
+
+  padding: 4px;
+  background: transparent;
+  font-size: 20px;
+  margin: 6px;
+  border: none;
+  border-bottom: solid black 2px;
+}
+
+.popup-box textarea {
+  width: 100%;
+  margin: 6px;
+  padding: 4px;
+  background: transparent;
+  font-size: 20px;
+  border: none;
+  border-bottom: solid black 2px;
+
+}
+
+.popup-box input:focus {
+  outline: none;
+}
+
+.popup-box textarea:focus {
+  outline: none;
+}
+
+.popup-box input::placeholder {
+  color: black;
+}
+
+.popup-box textarea::placeholder {
+  color: black;
+}
+
+.popup-box button {
+  background-color: #dd1691;
+  color: black;
+  padding: 7px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.add-button {
+  position: fixed;
+  bottom: 20%;
+  right: 20%;
+  font-size: 40px;
+  background-color: #fd1690;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 100%;
+  border: none;
+}
